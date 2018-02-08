@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+	font-family:微軟正黑體;
+}
+
+.header{
+	background-image: url(../img/Hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:450px;
+	background-position: center;
+	margin:0 auto;
+	text-align: center;
+}
+
+.header h1{
+	color:white;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150px;
+}
+
+#selectarea{
+	font-family:微軟正黑體;
+	font-size: 21px;
+	width: 400px;
+	line-height: 2;
+	border:white solid;
+	background-color:rgba(249, 249, 255, 0.719) ;
+	margin-top: 100px;
+	border-radius:3px;
+	cursor: pointer;
+}
+
+.hotarea{
+	background-color: white;
+	max-width: 800px;
+	height: 100px;
+	margin: 100px auto;
+	box-shadow: 2px 2px 2px;
+	border-radius:5px;
+}
+
+.hotarea p{
+	font-size: 18px;
+	color: black;
+	text-align:left;
+	line-height: 1;
+	padding:10px;
+	margin-left: 10px;
+}
+
+
+#hot-1{
+	width: 130px;
+	font-family:微軟正黑體;
+	font-size: 20px;
+	line-height:1.5;
+	background-color:#8A82CC;
+	color:white;
+	margin-right: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#hot-2{
+	width: 130px;
+	font-family:微軟正黑體;
+	font-size: 20px;
+	line-height:1.5;
+	background-color:#FFA782 ;
+	color:white;
+	margin-right: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#hot-3{
+	width: 130px;
+	font-family:微軟正黑體;
+	font-size: 20px;
+	line-height:1.5;
+	background-color:#F5D005 ;
+	color:white;
+	margin-right: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+#hot-4{
+	width: 130px;
+	font-family:微軟正黑體;
+	font-size: 20px;
+	line-height:1.5;
+	background-color:#559AC8 ;
+	color:white;
+	margin-right: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.banner{
+	height: 10px;
+	margin: auto;
+	width:90%;
+	border-bottom:  2px dashed #559AC8;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.footer{
+	height: 80px;
+	background-color: #559AC8;
+	margin:auto; 
+	
+	
+}
+.footer p{
+	text-align: center;
+	padding-top: 20px;
+}
+.webname{
+	color: white;
+}
+
+.datasource{
+	color: #F5D005;
+}
+
+.now{
+	margin:170px auto 0 auto;
+	width: 90%;
+
+}
+
+.title{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	padding: 50px;
+	
+}
+
+.card{
+	margin-left: 90px;
+	margin-bottom: 30px;
+	float: left;
+	width:40%;
+	box-shadow: 1px 1px 1px ;
+}
+
+.card:hover{
+	transform: translate(-5px,-5px);
+}
+.cardtop{
+	position: relative;
+}
+.cardinner{
+	height: 250px;
+}
+
+.cardcover{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.cardbottom{
+	padding: 10px;
+	line-height:1.8;
+}
+
+.rightli{
+	float:right;
+}
+
+.phone{
+	margin-left:2px;
+}
+
+.cardname{
+	background-color:rgba(27, 27, 27, 0.137) ;
+	color:white;
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+.cardname h3{
+	font-size: 24px;
+	padding: 5px;
+}
+
+.cardname p{
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.btn a{
+	text-decoration: none;
+	color:gray;
+}
+
+.btn a:hover{
+	text-decoration: underline;
+}
+
+@media only screen and (max-width:1000px) {
+ .card{
+		margin:auto;
+		width:60%;
+		float:none;
+	}
+	
+}
+
+@media only screen and (max-width:768px) {
+#hot-1{
+	width:80%;
+}
+
+#hot-2{
+	width:80%;
+}
+
+#hot-3{
+	width:80%;
+}
+
+
+#hot-4{
+	width:80%;
+}
+
+}
